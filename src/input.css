@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (max-width: 1440px) {
+  #hero-bg {
+    background: url(/img/hero-bg-2.png) no-repeat 480px -450px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #hero-bg {
+    background: url(/img/hero-bg-2.png) no-repeat 320px -450px;
+  }
+}
+
+.hoverable:hover .megamenu {
+  display: block;
+}
+
+.megamenu {
+  display: none;
+}
